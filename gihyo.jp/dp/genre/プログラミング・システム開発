@@ -1,0 +1,491 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>プログラミング・システム開発 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="技術評論社の電子書籍（電子出版）販売サイト"/>
+  <meta name="keywords" content="プログラミング・システム開発,電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store1217.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0411.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="プログラミング・システム開発 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="技術評論社の電子書籍（電子出版）販売サイト"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA"/>
+  <meta property="og:image" content="/dp/assets/gdp-icon.png"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する">プログラミング・システム開発</a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"><li class="title">商品ジャンルを選択</li><li><a href="/dp">すべての商品</a></li><li><a href="/dp/genre/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3">パソコン</a></li><li><a href="/dp/genre/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%B3%E3%83%BB%E3%82%BF%E3%83%96%E3%83%AC%E3%83%83%E3%83%88">スマートフォン・タブレット</a></li><li><a href="/dp/genre/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%83%BB%E7%B4%A0%E6%9D%90%E9%9B%86">デザイン・素材集</a></li><li><a href="/dp/genre/Web%E3%82%B5%E3%82%A4%E3%83%88%E5%88%B6%E4%BD%9C">Webサイト制作</a></li><li class="selected"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA">プログラミング・システム開発</a></li><li><a href="/dp/genre/%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%BBUNIX%E3%83%BB%E3%83%87%E3%83%BC%E3%82%BF%E3%83%99%E3%83%BC%E3%82%B9">ネットワーク・UNIX・データベース</a></li><li><a href="/dp/genre/%E8%B3%87%E6%A0%BC%E8%A9%A6%E9%A8%93%EF%BC%88IT%EF%BC%89">資格試験（IT）</a></li><li><a href="/dp/genre/%E8%B3%87%E6%A0%BC%E8%A9%A6%E9%A8%93%EF%BC%88%E4%B8%80%E8%88%AC%EF%BC%89%E3%83%BB%E5%A4%A7%E5%AD%A6%E5%8F%97%E9%A8%93">資格試験（一般）・大学受験</a></li><li><a href="/dp/genre/%E8%B6%A3%E5%91%B3%E3%83%BB%E5%AE%9F%E7%94%A8%E3%83%BB%E3%83%87%E3%82%B8%E3%82%AB%E3%83%A1">趣味・実用・デジカメ</a></li><li><a href="/dp/genre/%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%83%BB%E3%83%9E%E3%83%8D%E3%83%BC">ビジネス・マネー</a></li><li><a href="/dp/genre/%E7%90%86%E5%B7%A5%E3%83%BB%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%82%B9">理工・サイエンス</a></li></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">          <ul>
+            <li><span class="prev">―</span></li>
+            <li class="paging-number">1</li>
+            <li><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA?start=30" title="次のページ" class="next">次</a></li>
+          </ul>
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">        <li class="new" id="978-4-297-11485-5"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11485-5">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="141" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11485-5.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11485-5.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">ゼロからわかる</span> ゼロからわかる<br/>Java<wbr/>超入門<br/><span class="sub">［改訂<wbr/>3<wbr/>版］</span></p>
+          <p itemprop="author" class="author">佐々木整　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li class="notice"><time datetime="2020-7-31" itemprop="datePublished" class="published">2020年7月31日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-297-11463-3"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11463-3">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="126" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11463-3.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11463-3.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">パーフェクト</span> パーフェクト<wbr/>Ruby on Rails<br/><span class="sub">【増補改訂版】</span></p>
+          <p itemprop="author" class="author">すがわらまさのり，<wbr/>前島真一，<wbr/>橋立友宏，<wbr/>五十嵐邦明，<wbr/>後藤優一　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">3,480</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li class="notice"><time datetime="2020-7-25" itemprop="datePublished" class="published">2020年7月25日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-297-11451-0"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11451-0">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11451-0.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11451-0.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">Python<wbr/>でかなえる Excel<wbr/>作業効率化</p>
+          <p itemprop="author" class="author">北野勝久，<wbr/>高橋宣成　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li class="notice"><time datetime="2020-7-25" itemprop="datePublished" class="published">2020年7月25日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-297-11518-0"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11518-0">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="133" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11518-0.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11518-0.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">Python<wbr/>による医療データ分析入門<br/><span class="sub">―<wbr/>pandas<wbr/>＋擬似レセプト編</span></p>
+          <p itemprop="author" class="author">青木智広，<wbr/>橋田和典　コラム執筆，<wbr/>山本光穂　Pythonコード監修</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">3,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-7-20" itemprop="datePublished" class="published">2020年7月20日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-297-11441-1"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11441-1">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11441-1.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11441-1.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">たった<wbr/>1<wbr/>日で基本が身に付く！</span> たった1日で基本が身に付く！<br/>Git<wbr/>超入門</p>
+          <p itemprop="author" class="author">リブロワークス　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-7-18" itemprop="datePublished" class="published">2020年7月18日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-297-11501-2"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11501-2">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11501-2.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11501-2.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">知識ゼロからの</span> 知識ゼロからの<br/>Web<wbr/>アプリ開発入門</p>
+          <p itemprop="author" class="author">町田耕　著，<wbr/>TechAcademy　監修</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-7-17" itemprop="datePublished" class="published">2020年7月17日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-297-11516-6"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11516-6">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="143" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11516-6.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11516-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">IT<wbr/>エンジニアのための強化学習理論入門</p>
+          <p itemprop="author" class="author">中井悦司　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-7-17" itemprop="datePublished" class="published">2020年7月17日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11429-9"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11429-9">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="126" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11429-9.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11429-9.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">たった<wbr/>1<wbr/>日で基本が身に付く！</span> たった1日で基本が身に付く！<br/>Docker/<wbr/>Kubernetes<wbr/>超入門</p>
+          <p itemprop="author" class="author">伊藤裕一　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,580</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-7-11" itemprop="datePublished" class="published">2020年7月11日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11368-1"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11368-1">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="145" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11368-1.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11368-1.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">図解即戦力</span> 図解即戦力<br/>要件定義のセオリーと実践方法がこれ<wbr/>1<wbr/>冊でしっかりわかる教科書</p>
+          <p itemprop="author" class="author">エディフィストラーニング株式会社　上村有子　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-6-29" itemprop="datePublished" class="published">2020年6月29日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11398-8"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11398-8">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11398-8.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11398-8.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">［改訂<wbr/>3<wbr/>版］<wbr/>演習で学ぶソフトウェアテスト 特訓<wbr/>200<wbr/>問<br/><span class="sub">―<wbr/>JSTQB<wbr/>認定テスト技術者資格 Foundation Level<wbr/>対応</span></p>
+          <p itemprop="author" class="author">正木威寛　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,480</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-6-18" itemprop="datePublished" class="published">2020年6月18日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11352-0"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11352-0">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11352-0.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11352-0.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">WEB+DB PRESS plus</span> オブジェクト指向<wbr/>UI<wbr/>デザイン<br/><span class="sub">――使いやすいソフトウェアの原理</span></p>
+          <p itemprop="author" class="author">ソシオメディア株式会社，<wbr/>上野学，<wbr/>藤井幸多　著，<wbr/>上野学　監修</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-6-05" itemprop="datePublished" class="published">2020年6月5日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11404-6"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11404-6">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="140" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11404-6.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11404-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">スタートダッシュ<wbr/>iOS<br/><span class="sub">〜アプリエンジニアの必須ノウハウをサクっと押さえる</span></p>
+          <p itemprop="author" class="author">諏訪悠紀，<wbr/>平屋真吾，<wbr/>前田翼，<wbr/>田辺信之　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,680</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-6-01" itemprop="datePublished" class="published">2020年6月1日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11224-0"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11224-0">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="126" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11224-0.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11224-0.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">パーフェクト</span> パーフェクト<wbr/>Python<br/><span class="sub">［改訂<wbr/>2<wbr/>版］</span></p>
+          <p itemprop="author" class="author">露木誠，<wbr/>小田切篤，<wbr/>大谷弘喜　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">3,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-5-23" itemprop="datePublished" class="published">2020年5月23日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11454-1"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11454-1">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11454-1.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11454-1.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">Java データ構造とアルゴリズム 基礎講座</p>
+          <p itemprop="author" class="author">長尾和彦　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,580</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-5-20" itemprop="datePublished" class="published">2020年5月20日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11277-6"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11277-6">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="131" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11277-6.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11277-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">楽しい<wbr/>AI<wbr/>体験から始める機械学習<br/><span class="sub">～算数・<wbr/>数学をやらせてみたら～</span></p>
+          <p itemprop="author" class="author">Kay，<wbr/>Mr.Φ　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,180</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-5-11" itemprop="datePublished" class="published">2020年5月11日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11392-6"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11392-6">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11392-6.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11392-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">React Native<br/><span class="sub">～<wbr/>JavaScript<wbr/>による<wbr/>iOS<wbr/>／<wbr/>Android<wbr/>アプリ開発の実践</span></p>
+          <p itemprop="author" class="author">髙木健介，<wbr/>ユタマこたろう，<wbr/>仁田脇理史　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">3,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-27" itemprop="datePublished" class="published">2020年4月27日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11292-9"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11292-9">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="127" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11292-9.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11292-9.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">ARM<wbr/>マイコンで電子工作 SAM<wbr/>ファミリ活用ガイドブック</p>
+          <p itemprop="author" class="author">後閑哲也　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">3,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-18" itemprop="datePublished" class="published">2020年4月18日</time></li>
+            
+          </ul>
+        </a></li>        <li class="new" id="978-4-297-11348-3"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11348-3">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="126" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11348-3.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11348-3.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">プログラミング言語大全</p>
+          <p itemprop="author" class="author">クジラ飛行机　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">1,800</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-18" itemprop="datePublished" class="published">2020年4月18日</time></li>
+            <li><time datetime="2020-7-20" itemprop="dateModified" class="modified">2020年7月20日</time></li>
+          </ul>
+        </a></li>        <li id="978-4-297-11344-5"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11344-5">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="126" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11344-5.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11344-5.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">作って学ぶ<wbr/>Android<wbr/>アプリ開発<br/><span class="sub">［Kotlin<wbr/>対応］</span></p>
+          <p itemprop="author" class="author">有山圭二　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,780</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-17" itemprop="datePublished" class="published">2020年4月17日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11206-6"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11206-6">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11206-6.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11206-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">ESP32<wbr/>＆<wbr/>Arduino 電子工作 プログラミング入門</p>
+          <p itemprop="author" class="author">藤本壱　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-15" itemprop="datePublished" class="published">2020年4月15日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11214-1"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11214-1">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="141" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11214-1.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11214-1.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">WEB+DB PRESS plus</span> ［増補改訂第<wbr/>3<wbr/>版］<wbr/>Swift<wbr/>実践入門<br/><span class="sub">──直感的な文法と安全性を兼ね備えた言語</span></p>
+          <p itemprop="author" class="author">石川洋資，<wbr/>西山勇世　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">3,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-15" itemprop="datePublished" class="published">2020年4月15日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11342-1"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11342-1">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11342-1.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11342-1.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">データ活用のための数理モデリング入門</p>
+          <p itemprop="author" class="author">水上ひろき，<wbr/>熊谷雄介，<wbr/>高野雅典，<wbr/>藤原晴雄　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,680</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-15" itemprop="datePublished" class="published">2020年4月15日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11300-1"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11300-1">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="126" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11300-1.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11300-1.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">C<wbr/>言語ではじめる Raspberry Pi 徹底入門</p>
+          <p itemprop="author" class="author">菊池達也　著，<wbr/>実践教育訓練学会　監修</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-13" itemprop="datePublished" class="published">2020年4月13日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11268-4"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11268-4">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11268-4.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11268-4.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">知識ゼロからの</span> 知識ゼロからの機械学習入門</p>
+          <p itemprop="author" class="author">太田和樹　著，<wbr/>TechAcademy　監修</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,180</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-08" itemprop="datePublished" class="published">2020年4月8日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11210-3"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11210-3">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="126" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11210-3.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11210-3.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">Software Design plus</span> AI<wbr/>エンジニアを目指す人のための 機械学習入門 実装しながらアルゴリズムの流れを学ぶ</p>
+          <p itemprop="author" class="author">電通国際情報サービス　清水琢也，<wbr/>小川雄太郎　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,780</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-4-01" itemprop="datePublished" class="published">2020年4月1日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11200-4"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11200-4">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="141" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11200-4.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11200-4.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">みんなの<wbr/>Java OpenJDK<wbr/>から始まる大変革期！</p>
+          <p itemprop="author" class="author">きしだなおき，<wbr/>吉田真也，<wbr/>山田貴裕，<wbr/>蓮沼賢志，<wbr/>阪田浩一，<wbr/>前多賢太郎　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-3-06" itemprop="datePublished" class="published">2020年3月6日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11194-6"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11194-6">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="142" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11194-6.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11194-6.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">エンジニアのためのリスクマネジメント入門</p>
+          <p itemprop="author" class="author">田邉一盛　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-2-27" itemprop="datePublished" class="published">2020年2月27日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11198-4"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11198-4">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="126" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11198-4.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11198-4.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">自走プログラマー<br/><span class="sub">～<wbr/>Python<wbr/>の先輩が教えるプロジェクト開発のベストプラクティス<wbr/>120</span></p>
+          <p itemprop="author" class="author">清水川貴之，<wbr/>清原弘貴，<wbr/>tell-k　著，<wbr/>株式会社ビープラウド　監修</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,980</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-2-22" itemprop="datePublished" class="published">2020年2月22日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11212-7"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11212-7">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="130" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11212-7.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11212-7.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title">基礎<wbr/>C<wbr/>言語<wbr/>［入門編］<br/><span class="sub">―コンピュータの基本から理解するプログラミング</span></p>
+          <p itemprop="author" class="author">牛田啓太　著</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">2,680</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-2-21" itemprop="datePublished" class="published">2020年2月21日</time></li>
+            
+          </ul>
+        </a></li>        <li id="978-4-297-11216-5"><a itemprop="url" href="/dp/ebook/2020/978-4-297-11216-5">
+          <img itemprop="image" src="//image.gihyo.co.jp/assets/images/dummy.png" width="100" height="129" data-image="https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH100_978-4-297-11216-5.jpg,https://image.gihyo.co.jp/assets/images/gdp/2020/thumb/TH200_978-4-297-11216-5.jpg" alt="カバー画像"/>
+          <p itemprop="name" class="title"><span class="series">Software Design plus</span> Google Cloud Platform GAE<wbr/>ソフトウェア開発入門<br/><span class="sub">―<wbr/>Google Cloud Authorized Trainer<wbr/>による実践解説</span></p>
+          <p itemprop="author" class="author">小林明大，<wbr/>北原光星　著，<wbr/>中井悦司　監修</p>
+          <p itemprop="offers" itemscope="itemscope" itemtype="http://schema.org/Offer" class="price"><span itemprop="price">3,280</span>円<meta itemprop="priceCurrency" content="JPY"/></p>
+          <ul class="format">
+            <li class="pdf">PDF</li><li class="epub">EPUB</li>
+          </ul>
+          <ul class="date">
+            <li><time datetime="2020-2-20" itemprop="datePublished" class="published">2020年2月20日</time></li>
+            
+          </ul>
+        </a></li>
+      </ul>
+      <nav id="pagingBottom">        <ul>
+          <li><span class="prev">―</span></li>
+          <li class="paging-number">1 - 30 / 456</li>
+          <li><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA?start=30" title="次のページ" class="next">次</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper"></div>
+      <div id="navInfor"><p class="genre">プログラミング・システム開発</p><p class="page">1 - 30 / 456</p></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2020 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","path":"\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>PRIMITIVE TECHNOLOGY ―サバイバリストのための、道具や家やいろいろなものを自然の中で作るガイド | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="現在，EPUB準備中です。PDF版ご購入の方は，準備でき次第EPUB版もダウンロード可能となります。マッチもない。ナイフもない。森の中に身一つで取り残されたら，あなたは生き残れるか？木の小屋は，まず木を切る斧から作成する。土でかまどを作り，自作の火起こしで火をつけ，川で採取した粘土で土器を作って焼成する。畑で作物を育て，自分で編み上げた籠で収穫し，土器で調理する。小屋に屋根を付け，暖炉や煙突，床下暖房も作る。現代の道具をまったく使わず，自然から得られる素材だけで，生活に必要なあらゆるものを作り上げるためのガイドブック。眺めて楽しく，やってみたくなり，いつか本当に役立つかもしれない。YouTubeチャンネル登録者数1000万人以上の動画発のビジュアル解説書，待望の日本語版登場！"/>
+  <meta name="keywords" content="ジョン プラント,金井哲夫電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store1217.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0411.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="PRIMITIVE TECHNOLOGY ―サバイバリストのための、道具や家やいろいろなものを自然の中で作るガイド | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="現在，EPUB準備中です。PDF版ご購入の方は，準備でき次第EPUB版もダウンロード可能となります。マッチもない。ナイフもない。森の中に身一つで取り残されたら，あなたは生き残れるか？木の小屋は，まず木を切る斧から作成する。土でかまどを作り，自作の火起こしで火をつけ，川で採取した粘土で土器を作って焼成する。畑で作物を育て，自分で編み上げた籠で収穫し，土器で調理する。小屋に屋根を付け，暖炉や煙突，床下暖房も作る。現代の道具をまったく使わず，自然から得られる素材だけで，生活に必要なあらゆるものを作り上げるためのガイドブック。眺めて楽しく，やってみたくなり，いつか本当に役立つかもしれない。YouTubeチャンネル登録者数1000万人以上の動画発のビジュアル解説書，待望の日本語版登場！"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2020/978-4-297-11499-2"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2020/978-4-297-11499-2.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E8%B6%A3%E5%91%B3%E3%83%BB%E5%AE%9F%E7%94%A8%E3%83%BB%E3%83%87%E3%82%B8%E3%82%AB%E3%83%A1" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">PRIMITIVE TECHNOLOGY<br/><span class="sub">―サバイバリストのための、道具や家やいろいろなものを自然の中で作るガイド</span></h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2020/978-4-297-11499-2.jpg" alt="PRIMITIVE TECHNOLOGY ―サバイバリストのための、道具や家やいろいろなものを自然の中で作るガイド"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">ジョン プラント　著，<wbr/>金井哲夫　訳</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2020-07-20">2020年7月20日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2020-07-20">2020年7月20日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2020/978-4-297-11498-5" target="_blank">2020年7月20日に発売された書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt><span class="name">PDF</span><span class="buy">2,380円 <a id="pid402931" href="#cartAdd" title="カートに入れる">カートに入れる<div class="option" title="購入オプション">▼<ul><li title="通常購入">自分用に購入する</li><li class="gift" title="ギフトコードを購入">ギフトとして購入する</li></ul></div></a></span></dt><dd><span class="page"><span itemprop="numberOfPages">192</span>ページ相当</span><span class="pdf">PDF</span> </dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2020/978-4-297-11499-2" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2020/978-4-297-11499-2" data-text="PRIMITIVE TECHNOLOGY ―サバイバリストのための、道具や家やいろいろなものを自然の中で作るガイド #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2020/978-4-297-11499-2" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2020/978-4-297-11499-2" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<div style="border:1px solid #ccc;padding:1em;margin-bottom:1em"><p><strong>現在，<wbr/>EPUB準備中です。</strong></p>
+<p>PDF版ご購入の方は，<wbr/>準備でき次第EPUB版もダウンロード可能となります。</p></div>
+<p>マッチもない。ナイフもない。森の中に身一つで取り残されたら，<wbr/>あなたは生き残れるか？<br />
+木の小屋は，<wbr/>まず木を切る斧から作成する。土でかまどを作り，<wbr/>自作の火起こしで火をつけ，<wbr/>川で採取した粘土で土器を作って焼成する。畑で作物を育て，<wbr/>自分で編み上げた籠で収穫し，<wbr/>土器で調理する。小屋に屋根を付け，<wbr/>暖炉や煙突，<wbr/>床下暖房も作る。<br />
+現代の道具をまったく使わず，<wbr/>自然から得られる素材だけで，<wbr/>生活に必要なあらゆるものを作り上げるためのガイドブック。<br />
+眺めて楽しく，<wbr/>やってみたくなり，<wbr/>いつか本当に役立つかもしれない。YouTubeチャンネル登録者数1000万人以上の動画発のビジュアル解説書，<wbr/>待望の日本語版登場！</p><h3>こんな方におすすめ</h3>
+<ul><li>秘密基地に憧れる少年少女・<wbr/>元少年少女</li><li>キャンプやブッシュクラフトが好きな方</li><li>Primitive Technologyの動画のファンの方</li></ul>
+<h3>著者から一言</h3>
+<h4>序文より</h4>
+
+<p>プリミティブ・<wbr/>テクノロジー（原始の技術）とは，<wbr/>自然の中で手に入る天然の材料だけを使って，<wbr/>道具，<wbr/>構造物，<wbr/>織物，<wbr/>衣服を作る実技のことを言います。この道楽の目的は，<wbr/>現代技術が時代遅れにしてしまった営みや技に立ち戻ることにあります。本書で紹介するプロジェクトには，<wbr/>大昔に実際に使われていた技を元にしたものもありますが，<wbr/>その他は，<wbr/>アウトドアでいろいろな物を作ってきた体験から私が考案したものです。</p>
+
+<p>オーストラリアのファー・<wbr/>ノース・<wbr/>クイーンズランドという田舎で育った私は，<wbr/>科学が大好きだったのですが，<wbr/>最新テクノロジーに触れる機会に恵まれませんでした。かわりに私は，<wbr/>人間が生きてゆく上で必要なもの，<wbr/>つまり食事，<wbr/>衣服，<wbr/>家を確保するために私たちの先祖が使ってきたシステムや技に強く惹かれました。私は，<wbr/>道具を一から作り，<wbr/>現代の資源は一切使わずに自然の中で生活するという考え方に心が奪われていったのです。</p>
+
+<p>誰もが子ども時代にやったように，<wbr/>私も棒切れや石で小さな砦を作っていましたが，<wbr/>初歩的な技を身につけるや，<wbr/>もっと複雑な構造物や技に挑戦するようになりました。次の段階に入ると，<wbr/>物を作る工程を動画に収め，<wbr/>YouTubeチャンネルを開設してすべての動画を公開しました。みんなも，<wbr/>私と同じぐらいこの趣味を楽しんでくれるだろうという確信はありましたが，<wbr/>このチャンネルがこんなに人気になるとは予想もしていませんでした。支持してくれたみなさんに，<wbr/>心から感謝します。</p>
+
+<p>本書には，<wbr/>私のYouTube チャンネルで紹介した数々のプロジェクトが収められています。そのすべてを，<wbr/>長年磨いてきた私のプリミティブ・<wbr/>テクノロジーの技で試し，<wbr/>洗練させています。実際に作るときのために，<wbr/>材料の詳しい説明や知識も掲載しています。ここで使われる材料は，<wbr/>ほとんどがオーストラリア固有のものなので，<wbr/>可能な限り代替品の提案もしています。しかし私のお勧めは，<wbr/>自然の中で，<wbr/>ご自分で見つけた材料を試してみることです。難易度は，<wbr/>簡単なもの（手順も材料もわずかで済む）から，<wbr/>複雑なものまで幅があります。プリミティブ・<wbr/>テクノロジーの初心者で，<wbr/>高度なプロジェクトに挑戦したい方は，<wbr/>仲間と一緒にやるとよいでしょう。</p>
+
+<p>この本では，<wbr/>私がYouTubeチャンネル用に考案したプロジェクトも紹介しています。ひとつだけ，<wbr/>じつに厄介な問題を回避しなければならなかったからです。それは動物を扱うものでした。オーストラリアでは法律で狩猟が規制されているため，<wbr/>動物の骨や皮は使えず，<wbr/>代替品を考えなければなりません。一部のプロジェクトでは，<wbr/>それが大きな障害となりました。たとえば，<wbr/>ふいごは革で作ればとても簡単なのですが，<wbr/>かわりに私は，<wbr/>溶融炉用の送風機を，<wbr/>粘土と木材と木の皮でがんばって作り上げました（186ページ）。でも，<wbr/>天然の素材の新しい使い方を発見するというのは，<wbr/>プリミティブ・<wbr/>テクノロジーの大いなる楽しみでもあります。身の回りの世界からあれこれ拝借して便利なものを生み出すのは，<wbr/>最高の喜びです。</p>
+
+<p>私がそうであったように，<wbr/>プリミティブ・<wbr/>テクノロジーによって，<wbr/>みなさんのアウトドアの楽しみ方がもっともっと大きなものになりますように。</p><aside class="author"><h3>ジョン プラント（John Plant）</h3><p>36歳のオーストラリア市民。クイーンズランド州の北のはずれに暮らし，<wbr/>自然の中で，<wbr/>現代の道具や材料を一切使わずに，<wbr/>必要なものを一から自分で作ることに熱中している。ケアンズのジェームズ・<wbr/>クック大学で科学を学んだ後，<wbr/>芝刈り機の販売など，<wbr/>さまざまな職業を経験する。2015年，<wbr/>プリミティブ・<wbr/>テクノロジーのYouTubeチャンネルを立ち上げ，<wbr/>同じ趣味を持つ人たちのために自分の活動を動画にして配信を始めると，<wbr/>見ただけでよくわかる実演内容に加え，<wbr/>世界中のあらゆる言語や文化の人たちにも理解しやすいように，<wbr/>口で説明したりナレーションを入れたりしないスタイルも功を奏し，<wbr/>大人気を博した。</p>
+
+</aside><aside class="author"><h3>金井哲夫（かないてつお）</h3><p>訳者。<br />
+雑誌編集者を経て翻訳者に。書籍，<wbr/>ゲーム，<wbr/>映画字幕，<wbr/>ニュースなどの翻訳に携わる。訳書には『マイクロシェルター ―自分で作れる快適な小屋，<wbr/>ツリーハウス，<wbr/>トレーラーハウス』（Make:Japan Books），<wbr/>『それは「情報」ではない。―無情報爆発時代を生き抜くためのコミュニケーション・<wbr/>デザイン』（エムディエヌコーポレーション）他。</p></aside><section id="sample"><h2>サンプル</h2><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/9784297114985-01.png"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/thumb/TH400_9784297114985-01.png,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/9784297114985-01.png" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/9784297114985-02.png"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/thumb/TH400_9784297114985-02.png,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/9784297114985-02.png" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/9784297114985-03.png"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/thumb/TH400_9784297114985-03.png,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/9784297114985-03.png" width="400" height="533" alt="sample"/></a><a href="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/9784297114985-04.png"><img src="https://image.gihyo.co.jp/assets/images/reading.gif" data-image="https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/thumb/TH400_9784297114985-04.png,https://image.gihyo.co.jp/assets/files/book/2020/978-4-297-11498-5/9784297114985-04.png" width="400" height="533" alt="sample"/></a></section>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="41217">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h3>基本の道具</h3>
+<ul class="toc">
+<li>叩き石</li>
+<li>石刃</li>
+<li>石斧</li>
+<li>掘り棒</li>
+<li>槌とノミ</li>
+
+</ul>
+<h3>火</h3>
+<ul class="toc">
+<li>火きり杵</li>
+<li>弓ぎり</li>
+<li>火吹き棒</li>
+<li>木の火ばさみ</li>
+<li>焼き彫りの鉢</li>
+
+</ul>
+<h3>狩り</h3>
+<ul class="toc">
+<li>弓矢</li>
+<li>魚のワナ</li>
+<li>投槍器</li>
+<li>スリング</li>
+
+</ul>
+<h3>衣服と織物</h3>
+<ul class="toc">
+<li>基本の編みカゴ</li>
+<li>コイル編みのカゴ</li>
+<li>捻り編みのカゴ</li>
+<li>縄</li>
+<li>紡錘</li>
+<li>織機</li>
+<li>サンダル</li>
+
+</ul>
+<h3>高度な工具類</h3>
+<ul class="toc">
+<li>ちょうな</li>
+<li>ケルト斧</li>
+<li>紐ぎり</li>
+<li>水力杵</li>
+
+</ul>
+<h3>小屋</h3>
+<ul class="toc">
+<li>空積みの壁</li>
+<li>泥壁</li>
+<li>小舞壁</li>
+<li>ドーム型の小屋</li>
+<li>切妻屋根の小屋</li>
+<li>Aフレームの小屋</li>
+<li>円形の小屋</li>
+<li>ピラミッド型の小屋</li>
+<li>煙突</li>
+<li>オンドル</li>
+
+</ul>
+<h3>プリミティブ熱技術</h3>
+<ul class="toc">
+<li>再利用型炭焼き窯</li>
+<li>鉄を作る</li>
+<li>昇炎窯</li>
+<li>自然給気式溶融炉</li>
+<li>送風機</li>
+</ul>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2020 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2020\/978-4-297-11499-2","path":"\/dp\/ebook\/2020\/978-4-297-11499-2","targetId":"978-4-297-11499-2","parent":"\/dp\/genre\/%E8%B6%A3%E5%91%B3%E3%83%BB%E5%AE%9F%E7%94%A8%E3%83%BB%E3%83%87%E3%82%B8%E3%82%AB%E3%83%A1","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>

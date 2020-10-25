@@ -1,0 +1,503 @@
+<!DOCTYPE HTML>
+<html lang="ja" class="pc">
+<head>
+  <meta charset="UTF-8">
+  <title>Pythonでかなえる Excel作業効率化 | Gihyo Digital Publishing … 技術評論社の電子書籍</title>
+  <meta http-equiv="Content-Style-Type" content="text/css"/>
+  <meta http-equiv="Content-Script-Type" content="application/javascript"/>
+  <meta name="description" content="現在，EPUB準備中です。PDF版ご購入の方は，準備でき次第EPUB版もダウンロード可能となります。Excelは全ビジネスマン必須のアプリケーションですが，操作がめんどうだと感じたことはありませんか？本書は，「Python」というプログラミング言語を使って，そんなめんどうな業務を自動化・効率化する方法を紹介します。プログラミングがはじめての人にもわかるように，コードの書き方からしっかり解説。ExcelやGoogleスプレッドシートでのグラフ作成やデータ収集，表計算，データ分析など，ひととおりの業務をプログラムで動かす方法がわかります。プログラミングのはじめの一歩としてもオススメです。"/>
+  <meta name="keywords" content="北野勝久,高橋宣成電子書籍,電子出版,EPUB,PDF,技術評論社"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <link rel="related" href="http://gihyo.jp/dp/catalogs.opds" type="application/atom+xml;profile=opds-catalog" title="Gihyo Digital Publishing OPDS Catalog"/>
+  <link rel="shortcut icon" href="/assets/templates/gdp/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <link rel="apple-touch-icon-precomposed" href="/dp/assets/gdp-icon.png"/>
+  <!--[if lt IE 9]>
+    <script>var msie=8;</script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/dp/assets/js/html5shiv.min.js"></script>
+    <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="/dp/assets/js/selectivizr-min.js"></script>
+    <script src="/dp/assets/js/addEventListener.min.js"></script>
+    <script src="/dp/assets/js/textContent.min.js"></script>
+  <![endif]-->
+  <!--[if lte IE 9]>
+    <script src="/dp/assets/js/classList.min.js" defer></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/dp/assets/style/store1217.css" type="text/css" media="all"/>
+  <script src="/dp/assets/js/gdpFunction0411.min.js" defer></script>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@gihyoDP"/>
+  <meta property="og:title" content="Pythonでかなえる Excel作業効率化 | Gihyo Digital Publishing … 技術評論社の電子書籍"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="現在，EPUB準備中です。PDF版ご購入の方は，準備でき次第EPUB版もダウンロード可能となります。Excelは全ビジネスマン必須のアプリケーションですが，操作がめんどうだと感じたことはありませんか？本書は，「Python」というプログラミング言語を使って，そんなめんどうな業務を自動化・効率化する方法を紹介します。プログラミングがはじめての人にもわかるように，コードの書き方からしっかり解説。ExcelやGoogleスプレッドシートでのグラフ作成やデータ収集，表計算，データ分析など，ひととおりの業務をプログラムで動かす方法がわかります。プログラミングのはじめの一歩としてもオススメです。"/>
+  <meta property="og:url" content="https://gihyo.jp/dp/ebook/2020/978-4-297-11451-0"/>
+  <meta property="og:image" content="https://image.gihyo.co.jp/assets/images/gdp/2020/978-4-297-11451-0.jpg"/>
+  <meta property="og:site_name" content="Gihyo Digital Publishing"/>
+  <meta property="fb:app_id" content="185201618169441"/>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-4149703-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/WebPage" class="page-home">
+  <header id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+    <h1 class="home-title">Gihyo Digital Publishing</h1>
+    <h2 class="home-subtitle">技術評論社の電子書籍サイト</h2>
+    <nav id="headerFunction">
+      <div id="login">
+        <a href="#login" title="ログイン・会員登録">ログイン</a>
+      </div>
+      <div id="cart">
+        <a href="/dp/cart" title="カートは空です">カート</a>
+      </div>
+    </nav>
+  </header>
+  <div id="main">
+    <noscript><div id="noscript">
+      <p>本サイトではJavaScriptを使用しております。JavaScriptが無効な状態ではご利用いただけません。</p>
+    </div></noscript>
+
+<div id="overlayWindow" class="book-infor" itemscope itemtype="http://schema.org/Book" typeof="product:Product" xmlns:product="http://search.yahoo.com/searchmonkey/product/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:media="http://search.yahoo.com/searchmonkey/media/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:currency="http://search.yahoo.com/searchmonkey-datatype/currency/" style="display:block;opacity:1">
+  <header id="overlayHeader">
+    <h1>書籍概要</h1>
+    <nav id="overlayFunction">
+      <p id="close"><a href="/dp/genre/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA" title="閉じる">閉じる</a></p>
+      <ul id="jump">
+        <li id="detailRef"><a href="#title" title="概要を見る">概要</a></li>
+        <li id="contentRef"><a href="#content" title="目次を見る">目次</a></li>
+        <li id="supportRef"><a href="#support" title="サポート情報を見る">サポート</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="bookInforMain">
+  <hgroup id="title">
+
+    <h1 id="bookTitle" property="rdfs:label" itemprop="name">Python<wbr/>でかなえる Excel<wbr/>作業効率化</h1>
+  </hgroup>
+  <aside id="bookCover" rel="rdfs:seeAlso media:image"><img src="https://image.gihyo.co.jp/assets/images/gdp/2020/978-4-297-11451-0.jpg" alt="Pythonでかなえる Excel作業効率化"/></aside>
+  <dl id="publicationData" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+    <dt>著者</dt>
+    <dd itemprop="author">北野勝久，<wbr/>高橋宣成　著</dd>
+    <dt>発売日</dt>
+    <dd><time datetime="2020-07-25">2020年7月25日</time></dd>
+    <dt>更新日</dt>
+    <dd><time datetime="2020-07-25">2020年7月25日</time></dd>
+  </dl>
+  <aside>
+    <ul class="information">
+      <li>本書は，<a href="https://gihyo.jp/book/2020/978-4-297-11450-3" target="_blank">2020年7月25日に発売される書籍</a>の電子版です。</li>
+      <li class="need-login">ご購入には会員登録・ログインが必要です</li>
+      <li class="corporate"><a href="/dp/help/buy/bulkpurchase">学校・法人等団体でのご利用について</a></li>
+    </ul>
+    <dl id="productPrice">
+<dt class="disable"><span class="name">PDF</span><span class="buy">2,280円 </span></dt><dd class="disable"><span class="page"><span itemprop="numberOfPages">240</span>ページ相当</span><span class="pdf">PDF</span> <span class="plan">7月25日発売予定<a href="#" id="releaseNotify" class="" data-pid="402937" title="発売日にメールで通知する（要ログイン）">発売日に通知する</a></span></dd>
+
+    </dl>
+  </aside>
+  <aside id="social">
+    <ul>
+      <li class="twitter"><a href="https://twitter.com/search?q=https://gihyo.jp/dp/ebook/2020/978-4-297-11451-0" class="twitter--list">リスト</a><a href="http://twitter.com/share" class="twitter-share-button" data-url="https://gihyo.jp/dp/ebook/2020/978-4-297-11451-0" data-text="Pythonでかなえる Excel作業効率化 #gihyoDP" data-count="none" data-lang="ja">ツイート</a></li>
+      <li class="facebook"><div class="fb-like" data-href="https://gihyo.jp/dp/ebook/2020/978-4-297-11451-0" data-send="false" data-layout="box_count" data-width="450" data-show-faces="false" data-share="true"></div></li>
+      <li class="hatena"><a href="http://b.hatena.ne.jp/entry/https://gihyo.jp/dp/ebook/2020/978-4-297-11451-0" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-balloon" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="//b.hatena.ne.jp/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a></li>
+    </ul>
+  </aside>
+  <div id="productDetail">
+    <section id="detail">
+      <h2>概要</h2>
+<div style="border:1px solid #ccc;padding:1em;margin-bottom:1em"><p><strong>現在，<wbr/>EPUB準備中です。</strong></p>
+<p>PDF版ご購入の方は，<wbr/>準備でき次第EPUB版もダウンロード可能となります。</p></div>
+<p>Excelは全ビジネスマン必須のアプリケーションですが，<wbr/>操作がめんどうだと感じたことはありませんか？<br />
+本書は，<wbr/>「Python」というプログラミング言語を使って，<wbr/>そんなめんどうな業務を自動化・<wbr/>効率化する方法を紹介します。プログラミングがはじめての人にもわかるように，<wbr/>コードの書き方からしっかり解説。ExcelやGoogleスプレッドシートでのグラフ作成やデータ収集，<wbr/>表計算，<wbr/>データ分析など，<wbr/>ひととおりの業務をプログラムで動かす方法がわかります。<br />
+プログラミングのはじめの一歩としてもオススメです。</p><h3>こんな方におすすめ</h3>
+<ul><li>仕事でExcelを使っている人</li><li>面倒な作業を自動化してもっとラクにしたい人</li></ul>
+<h3>著者から一言</h3>
+<p>なぜExcel 仕事にPythonを使う必要があるのでしょうか。「とくに困ってないよ」という方も多いでしょう。わざわざ今までと違うやり方で仕事をするからには，<wbr/>何かしらのメリットが必要です。</p>
+
+<p>たとえば，<wbr/>Web 上のデータを集計し，<wbr/>グラフ化して，<wbr/>社内のファイルサーバに保管するという業務を考えてみます。Excel 作業の前後には前工程と後工程があり，<wbr/>Excel 上での作業は一部であることがわかります。また，<wbr/>Webブラウザ→Excel →ファイルサーバを行き来せねばならず，<wbr/>めんどうです。このようにExcel 仕事を分解すると，<wbr/>工程数やExcel 外の作業が意外と多いことに気づくでしょう。</p>
+
+<p>ところが，<wbr/>この業務をPythonで行うと，<wbr/>すべての作業はプログラムを動かすだけで完結できます。壊れてしまったら改修が必要ですが，<wbr/>いったんプログラムをつくってしまえば，<wbr/>同じ作業を再びゼロから行う必要はありません。定期的にプログラムを実行すれば完全に自動化することも可能です。つまり，<wbr/>次のようなメリットがあるのです。</p>
+<ul>
+<li> 同じ作業を何度も人の手で繰り返さなくてもいい</li>
+<li> 決まった日時に行う定期作業を自動化できる</li>
+<li> プログラムが壊れない限り，<wbr/>ミスがなくなる</li>
+<li> 特定の人に依存した仕事を減らすことができる</li>
+<li> 仕事の進め方を記録管理できる</li>
+</ul>
+<p>例にあげたようなデータ集計・<wbr/>加工業務を自動化することで，<wbr/>実際の作業時間と頭の切り替えにかかる時間を含め，<wbr/>毎週2時間程度の時間が新しく生まれるでしょう。年間で約100時間です。その100時間を使えば，<wbr/>さらに別の業務を自動化・<wbr/>効率化できます。プログラミングは，<wbr/>コンピュータに仕事を任せることで，<wbr/>どんどん時間が生まれていくという意味において，<wbr/>時間の打ち出の小槌と言えるかもしれません。</p>
+
+<p>本書は，<wbr/>「みなさんの業務がどのように楽になるか」を最重視して内容を構成しています。本質的ではない作業を自動化・<wbr/>効率化することで，<wbr/>本来やるべき仕事に集中できるようになるでしょう。</p>
+
+<p>これからプログラミングをはじめようとする方にとっては，<wbr/>長い道のりになると思います。一緒にがんばっていきましょう。近道はないし，<wbr/>魔法はない。できなかったことをできるようになることの繰り返しで，<wbr/>それは人生もプログラミングも同じです。本書の内容を参考に，<wbr/>ご自身の仕事を改革できた方がたった1人でもいらっしゃれば，<wbr/>筆者冥利につきます。</p><aside class="author"><h3>北野勝久（きたのかつひさ）</h3><p>株式会社スタディスト開発部副部長 兼 SRE（Site Reliability Engineer）。<br />
+日本タタ・<wbr/>コンサルタンシー・<wbr/>サービシズ株式会社にて，<wbr/>ERPシステムの構築等に携わった後，<wbr/>株式会社スタディストに入社。SOP（標準作業手順書）のプラットフォームサービス「Teachme Biz」の新規機能開発や，<wbr/>システム運用業務自動化の実装等を担当した後に現職。<br />
+コミュニティ活動として，<wbr/>SREの勉強会「SRE Lounge」や，<wbr/>日本初のSREのカンファレンス「SRE NEXT」の主催を務める。システム運用業務の自動化によって，<wbr/>自らの働き方を大きく変えた原体験をきっかけとし，<wbr/>趣味でPythonを使った困りごとの自動化に取り組む。その一環で「いつも隣にITのお仕事」にOpenPyXLに関する連載を寄稿し，<wbr/>本書執筆につながる。<br />
+普段の業務では，<wbr/>Pythonは自動化ツールの開発やデータ分析等に利用している。<br />
+Twitter：<a href="https://twitter.com/katsuhisa__">@katsuhisa__</a></p>
+</aside><aside class="author"><h3>高橋宣成（たかはしのりあき）</h3><p>株式会社プランノーツ代表取締役。1976 年5 月5日こどもの日に生まれる。<br />
+電気通信大学大学院電子情報学研究科修了後，<wbr/>サックスプレイヤーとして活動。自らが30歳になったことを機に就職。モバイルコンテンツ業界でプロデューサー，<wbr/>マーケターなどを経験。しかし「正社員こそ不安定」「IT 業界でもIT を十分に活用できていない」「生産性よりも長時間労働を評価する」などの現状を目の当たりにする。日本のビジネスマンの働き方，<wbr/>生産性，<wbr/>IT 活用などに課題を感じ，<wbr/>2015 年6 月に独立，<wbr/>起業。<br />
+現在「IT を活用して日本の『働く』の価値を高める」をテーマに，<wbr/>VBA，<wbr/>Google AppsScript，<wbr/>Pythonなどのプログラム言語に関する研修，<wbr/>セミナー講師，<wbr/>執筆，<wbr/>メディア運営，<wbr/>コミュニティ運営など，<wbr/>非IT 企業・<wbr/>非IT 人材向け教育活動を行う。<br />
+コミュニティ「ノンプログラマーのためのスキルアップ研究会」主宰。Linkedinラーニングトレーナー。自身が運営するブログ「いつも隣にIT のお仕事」は，<wbr/>月間130 万PV の人気を誇る。<br />
+ホームページ：<a href="https://tonari-it.com/">いつも隣にIT のお仕事</a></p>
+</aside>
+    </section>
+    <section id="content">
+      <h2>目次</h2>
+<div id="bookSearch">
+<form id="bookSearchForm" action="search" method="post">
+  <input type="search" name="query" id="bookSearchText" title="本書内を検索するキーワードを入力" placeholder="本書内のキーワード" required="required" value="">
+  <input type="hidden" name="code" value="41228">
+  <input type="submit" id="bookSearchSubmit" value="検索" title="検索する">
+</form>
+</div><h4>はじめに</h4>
+<h3>第1章　Pythonをはじめよう</h3>
+
+<h4>1-1　Pythonの特徴</h4>
+<ul class="toc">
+<li>Column　オープンソースソフトウェア（OSS）はどうして無料なの？</li>
+
+</ul>
+<h4>1-2　Pythonのインストール</h4>
+<ul class="toc">
+<li>1-2-1　Anacondaのダウンロード</li>
+<li>Column　Python 2？　Python 3？</li>
+<li>1-2-2　Anacondaのインストール</li>
+
+</ul>
+<h4>1-3　Pythonをさわってみよう</h4>
+<ul class="toc">
+<li>1-3-1　CUIの起動</li>
+<li>1-3-2　Pythonの対話モードの起動</li>
+
+</ul>
+<h4>1-4　PyCharmを使おう</h4>
+<ul class="toc">
+<li>1-4-1　PyCharmのダウンロード</li>
+<li>1-4-2　PyCharmのインストール</li>
+<li>1-4-3　PyCharmを日本語で利用する</li>
+<li>1-4-4　インタープリターの設定</li>
+<li>1-4-5　「hello world」と表示するプログラムの作成</li>
+<li>Column　PyCharmをすぐ呼び出せるようにしておこう</li>
+
+</ul>
+<h3>第2章　Pythonを動かしてみよう</h3>
+
+
+<h4>2-1　Pythonのきほん</h4>
+<ul class="toc">
+<li>2-1-1　データの性質</li>
+<li>2-1-2　オブジェクトと関数</li>
+<li>2-1-3　計算してみよう</li>
+<li>2-1-4　異なるデータ型同士の計算</li>
+<li>2-1-5　オブジェクトを操作する</li>
+<li>2-1-6　同じオブジェクトを使いまわす</li>
+
+</ul>
+<h4>2-2　ある条件で処理を分ける</h4>
+<ul class="toc">
+<li>2-2-1　条件を判定する</li>
+<li>2-2-2　条件に応じて処理をする</li>
+
+</ul>
+<h4>2-3　オブジェクトをひとまとまりで扱う</h4>
+<ul class="toc">
+<li>2-3-1　中身をあとから変更できるリスト型</li>
+<li>2-3-2　中身をあとから変更できないタプル型</li>
+<li>Column　ミュータブルとイミュータブル</li>
+<li>2-3-3　キーと値をセットで扱う辞書型</li>
+
+</ul>
+<h4>2-4　同じ処理を繰り返し行う</h4>
+<ul class="toc">
+<li>2-4-1　要素の数だけ処理を繰り返す</li>
+<li>2-4-2　条件が続く限り処理を繰り返す</li>
+<li>2-4-3　処理の途中でループを抜け出す</li>
+
+</ul>
+<h4>2-5　定義した処理を実行する</h4>
+<ul class="toc">
+<li>Column　インデントは半角スペース4つ？</li>
+<li>2-5-1　関数にわたす情報・関数から戻ってくる情報</li>
+<li>2-5-2　変数が使える範囲</li>
+<li>Column　エラーメッセージが表示されたら</li>
+<li>2-5-3　あらかじめ用意されている関数</li>
+
+</ul>
+<h4>2-6　ファイルを機能ごとに分けて再利用する</h4>
+<ul class="toc">
+<li>2-6-1　使いたいファイルを読み込ませる</li>
+<li>2-6-2　あらかじめ用意されているライブラリを使う</li>
+<li>Column　サードパーティライブラリ</li>
+
+</ul>
+<h4>2-7　例外処理</h4>
+<h3>第3章　Excel作業を自動化しよう</h3>
+
+
+<h4>3-1　Excelファイルを操作するための準備</h4>
+<ul class="toc">
+<li>3-1-1　OpenPyXLをインストールする</li>
+<li>3-1-2　新しいフォルダの作成</li>
+<li>3-1-3　Excelファイルをフォルダに配置する</li>
+<li>Column　PyCharm上でのファイル移動</li>
+
+</ul>
+<h4>3-2　Excelの値を表示する</h4>
+<ul class="toc">
+<li>3-2-1　指定したセルの値を取得する</li>
+<li>Column　取得するセル位置を指定するほかの方法</li>
+<li>3-2-2　複数のセルをまとめて取得する</li>
+
+</ul>
+<h4>3-3　Excelファイルを編集する</h4>
+<ul class="toc">
+<li>3-3-1　Excelファイルを新規作成する</li>
+<li>3-3-2　Excelシートを追加／削除する</li>
+<li>3-3-3　セルの値を編集する</li>
+<li>3-3-4　フォントを設定する</li>
+
+</ul>
+<h4>3-4　Excelのレイアウトを編集する</h4>
+<ul class="toc">
+<li>3-4-1　Excelの行と列の幅を設定する</li>
+<li>3-4-2　行と列を固定表示する</li>
+<li>Column　#からはじまる行はなに？</li>
+
+</ul>
+<h4>3-5　Excelのグラフを作成する</h4>
+<ul class="toc">
+<li>3-5-1　グラフが読み込むデータを決める</li>
+<li>3-5-2　グラフの種類を決める</li>
+<li>3-5-3　グラフにデータをわたす</li>
+<li>3-5-4　グラフをつくる</li>
+<li>3-5-5　データから系列をつくる</li>
+<li>Column　PyCharmのコーディングアシスタンスについて</li>
+<li>Column　GitやGitHubでプログラムを管理しよう</li>
+</ul>
+
+<h3>第4章　Googleスプレッドシート操作も自動化しよう</h3>
+
+
+<h4>4-1　Googleスプレッドシートを操作するための初期設定</h4>
+<ul class="toc">
+<li>4-1-1　Googleアカウントの作成</li>
+<li>4-1-2　Google Cloud Platformプロジェクトの作成</li>
+<li>4-1-3　スプレッドシートを操作するためのAPIを有効化する</li>
+<li>4-1-4　サービスアカウントを作成し，認証情報をダウンロードする</li>
+<li>4-1-5　利用ライブラリをインストールする</li>
+
+</ul>
+<h4>4-2　新しいスプレッドシートを作成する</h4>
+<ul class="toc">
+<li>4-2-1　プログラムがAPIにアクセスできるよう設定する</li>
+<li>4-2-2　スプレッドシートを作成する</li>
+<li>4-2-3　スプレッドシートの共有権限を変更する</li>
+<li>4-2-4　スプレッドシートのURLを表示する</li>
+<li>Column　新しいシートを追加する</li>
+
+</ul>
+<h4>4-3　セルの値を取得する</h4>
+<ul class="toc">
+<li>4-3-1　事前準備</li>
+<li>4-3-2　スプレッドシートを開く</li>
+<li>4-3-3　セルの値を取得する</li>
+
+</ul>
+<h4>4-4　セルの値を編集する</h4>
+
+
+
+<h3>第5章　Excel作業の前工程・後工程を自動化しよう</h3>
+
+
+<h4>5-1　フォルダ・ファイル操作</h4>
+<ul class="toc">
+<li>5-1-1　絶対パスと相対パス</li>
+<li>5-1-2　フォルダにあるファイルを一覧表示する</li>
+<li>5-1-3　フォルダを作成する</li>
+<li>5-1-4　ファイルの書き込みと読み込み</li>
+<li>Column　モードオプションw，x，a の選び方</li>
+<li>5-1-5　ファイルを移動する</li>
+
+</ul>
+<h4>5-2　文字列操作</h4>
+<ul class="toc">
+<li>5-2-1　文字列を検索する</li>
+<li>Column　encoding オプションの指定について</li>
+<li>5-2-2　正規表現を使って文字列を検索する</li>
+<li>5-2-3　検索一致した文字列の位置を調べる</li>
+<li>5-2-4　文字列を置換する</li>
+<li>Column　よりシンプルな文字列置換</li>
+<li>Column　format()メソッドで文字列に変数を埋め込む</li>
+
+</ul>
+<h4>5-3　CSVデータの処理</h4>
+<ul class="toc">
+<li>5-3-1　CSVの出力</li>
+<li>Column　newlineオプションの指定について</li>
+<li>5-3-2　CSVの読み込み</li>
+<li>5-3-3　CSVの加工</li>
+
+</ul>
+<h4>5-4　Webからデータを取得しよう</h4>
+<ul class="toc">
+<li>Column　Webから情報を取得する際の注意点</li>
+</ul>
+
+<h3>第6章　表計算やデータ分析をやってみよう</h3>
+
+
+<h4>6-1　データ分析を始める前に</h4>
+<ul class="toc">
+<li>6-1-1　ExcelとPythonの使い分け</li>
+<li>6-1-2　データ分析の流れ</li>
+
+</ul>
+<h4>6-2　JupyterLabを使ってみよう</h4>
+<ul class="toc">
+<li>6-2-1　JupyterLabとは</li>
+<li>Column　Jupyter Notebookとの違いは？</li>
+<li>6-2-2　JupyterLabを起動する</li>
+<li>6-2-3　実行してみよう</li>
+<li>Column　新しいファイルの追加</li>
+<li>6-2-4　pandasの基本的な使い方</li>
+
+</ul>
+<h4>6-3　データを分析する</h4>
+<ul class="toc">
+<li>6-3-1　データの準備</li>
+<li>6-3-2　データを読み込む</li>
+<li>Column　データセットの書き込み方法</li>
+<li>6-3-3　データを結合する</li>
+<li>Column　手動でのデータ追加方法</li>
+<li>Column　欠損値を補うには</li>
+<li>6-3-4　データを集計する</li>
+
+</ul>
+<h4>6-4　データを可視化する</h4>
+<ul class="toc">
+<li>6-4-1　日本語フォントの使用について</li>
+<li>6-4-2　棒グラフを作成する</li>
+<li>6-4-3　折れ線グラフを作成する</li>
+<li>Column　プログラムの書き進め方</li>
+
+</ul>
+
+<h3>第7章　いろんな業務を自動化してみよう</h3>
+
+
+<h4>7-1　複数のExcelファイルに分散した売上データを分析する</h4>
+<ul class="toc">
+<li>例題の説明</li>
+<li>7-1-1　フォルダの中のExcelファイルを読み込む</li>
+<li>7-1-2　各月ごとに分かれている売上データを連結する</li>
+<li>Column　インポートの順序とグループ化</li>
+<li>7-1-3　売上データと顧客流入元データを結合する</li>
+<li>7-1-4　顧客流入元ごとの売上合計を集計する</li>
+<li>7-1-5　Excelファイルに集計データを出力する</li>
+<li>さらなる応用</li>
+
+
+</ul>
+<h4>7-2　特定のルールに従って，フォルダ構成を整理する</h4>
+<ul class="toc">
+<li>例題の説明</li>
+<li>7-2-1　作業用フォルダにすべてのファイルをコピーする</li>
+<li>7-2-2　すべてのファイルを取得する</li>
+<li>7-2-3　取得したファイルが請求書ファイルかどうかを判別する</li>
+<li>Column　処理を関数にする基準は？</li>
+<li>7-2-4　新しいファイル名とフォルダ名を取得する</li>
+<li>7-2-5　新しいフォルダを作成する</li>
+<li>7-2-6　ファイル名変更とフォルダ移動を行う</li>
+<li>さらなる応用</li>
+
+
+</ul>
+<h4>7-3　Webスクレイピングでデータを取得する</h4>
+<ul class="toc">
+<li>例題の説明</li>
+<li>7-3-1　対象のWebページを確認する</li>
+<li>Column　クエリパラメータ</li>
+<li>7-3-2　Webページから情報を取得する</li>
+<li>7-3-3　CSSセレクタを確認する</li>
+<li>7-3-4　取得したHTMLを解析する</li>
+<li>7-3-5　書籍のURLを取り出す</li>
+<li>さらなる応用</li>
+<li>Column　Webページから画像を取得する</li>
+
+
+</ul>
+<h4>おわりに</h4>
+<h4>参考文献</h4>
+<h4>索引</h4>
+<h4>読者特典</h4>
+    </section>
+    <section id="support">
+      <h2>サポート</h2>
+<p>現在サポート情報はありません。</p>
+    </section>
+  </div>
+  </div>
+<script defer="defer">try{twttr.widgets.load();FB.XFBML.parse();Hatena.Bookmark.BookmarkButton.setup();}catch(e){}</script>
+</div>    <div id="bookList">
+      <h2>商品一覧</h2>
+      <div id="topNavigation">
+        <div id="filter">
+          <form id="search" action="/dp" method="get">
+            <input type="search" name="query" id="searchText" title="検索する商品のキーワードを入力" placeholder="商品のキーワード" required="required" value=""/>
+            <input type="submit" id="searchSubmit" value="検索" title="検索する"/>
+          </form>
+          <div id="select">
+            <a href="" id="selectLabel" title="商品ジャンルを選択する"></a>
+            <div id="selectMenu">
+              <ul id="selectMenuBody"></ul>
+            </div>
+          </div>
+        </div>
+        <nav id="pagingTop">
+        </nav>
+      </div>
+      <ul itemprop="isPartOf" itemscope="itemscope" itemtype="http://www.schema.org/CollectionPage" id="listBook" class="list-book">
+      </ul>
+      <nav id="pagingBottom">
+      </nav>
+    </div>
+  </div>
+  <footer id="footer" itemscope="itemscope" itemtype="http://www.schema.org/WPFooter">
+    <div id="wait" class="hidden"></div>
+    <nav id="navigation" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
+      <ul id="navigationLink">
+        <li id="navLinkHome" class="current"><a itemprop="url" href="/dp" title="ストア" class="home">ストア</a></li>
+        <li id="navLinkMyPage"><a itemprop="url" href="/dp/my-page" title="マイページ" class="mypage">マイページ</a></li>
+        <li id="navLinkInfor"><a itemprop="url" href="/dp/information" title="お知らせ" class="information">お知らせ</a></li>
+        <li id="navLinkHelp"><a itemprop="url" href="/dp/help" title="ヘルプ" class="help">ヘルプ</a></li>
+      </ul>
+    </nav>
+    <nav id="function" itemscope="itemscope" itemtype="http://www.schema.org/WPSideBar">
+      <div id="backgroundWrapper" style="display:block;opacity:0.4"></div>
+      <div id="navInfor"></div>
+    </nav>
+    <div id="storeInformation">
+      <ul id="footerLink">
+        <li>Twitter: <a href="https://twitter.com/gihyoDP">@gihyoDP</a></li>
+        <li><a href="/dp/help/about/site">このサイトについて</a></li>
+        <li><a href="/dp/help/about/terms">利用規約</a></li>
+        <li><a href="/dp/help/about/privacy">プライバシーポリシー</a></li>
+        <li><a href="/dp/help/about/law">特定商取引法に基づく表示</a></li>
+      </ul>
+      <p id="storeCopyright"><small>Copyright © 2020 <span class="reserved">All Rights Reserved by</span> <a href="/book">Gijutsu-Hyohron Co., Ltd.</a></small></p>
+    </div>
+  </footer>
+<script>var params={"url":"https:\/\/gihyo.jp\/dp\/ebook\/2020\/978-4-297-11451-0","path":"\/dp\/ebook\/2020\/978-4-297-11451-0","targetId":"978-4-297-11451-0","parent":"\/dp\/genre\/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E9%96%8B%E7%99%BA","overlay":true,"body":"    <div id=\"bookList\">\n      <h2>\u5546\u54c1\u4e00\u89a7<\/h2>\n      <div id=\"topNavigation\">\n        <div id=\"filter\">\n          <form id=\"search\" action=\"\/dp\" method=\"get\">\n            <input type=\"search\" name=\"query\" id=\"searchText\" title=\"\u691c\u7d22\u3059\u308b\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\" placeholder=\"\u5546\u54c1\u306e\u30ad\u30fc\u30ef\u30fc\u30c9\" required=\"required\" value=\"\"\/>\n            <input type=\"submit\" id=\"searchSubmit\" value=\"\u691c\u7d22\" title=\"\u691c\u7d22\u3059\u308b\"\/>\n          <\/form>\n          <div id=\"select\">\n            <a href=\"\" id=\"selectLabel\" title=\"\u5546\u54c1\u30b8\u30e3\u30f3\u30eb\u3092\u9078\u629e\u3059\u308b\"><\/a>\n            <div id=\"selectMenu\">\n              <ul id=\"selectMenuBody\"><\/ul>\n            <\/div>\n          <\/div>\n        <\/div>\n        <nav id=\"pagingTop\">\n        <\/nav>\n      <\/div>\n      <ul itemprop=\"isPartOf\" itemscope=\"itemscope\" itemtype=\"http:\/\/www.schema.org\/CollectionPage\" id=\"listBook\" class=\"list-book\">\n      <\/ul>\n      <nav id=\"pagingBottom\">\n      <\/nav>\n    <\/div>","isLogin":false,"dialog":"<aside id=\"dialog\" class=\"dialog-login\" style=\"opacity:0\">\n  <div id=\"dialogBody\">\n    <div id=\"gihyoAccount\">\n      <h2>\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <form action=\"?login\" method=\"post\">\n        <input type=\"hidden\" name=\"fid\" value=\"\"\/>\n        <dl>\n          <dt>\u30a2\u30ab\u30a6\u30f3\u30c8<\/dt>\n          <dd><input type=\"email\" name=\"account\" placeholder=\"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\"\/><\/dd>\n          <dt>\u30d1\u30b9\u30ef\u30fc\u30c9<\/dt>\n          <dd><input type=\"password\" name=\"password\" placeholder=\"\u30d1\u30b9\u30ef\u30fc\u30c9\" required=\"required\" title=\"\u30a2\u30ab\u30a6\u30f3\u30c8\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\"\/><\/dd>\n        <\/dl>\n        <p id=\"loginButton\"><input type=\"submit\" value=\"\u30ed\u30b0\u30a4\u30f3\" title=\"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\"\/><\/p>\n        <ul id=\"loginFunction\">\n          <li><a href=\"\/dp\/help\/buy\/forgot\">\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u304a\u5fd8\u308c\u306e\u65b9<\/a><\/li>\n          <li><a href=\"\/dp\/help\/buy\/account\">\u65b0\u898f\u767b\u9332\u3092\u3054\u5e0c\u671b\u306e\u65b9<\/a><\/li>\n        <\/ul>\n      <\/form>\n    <\/div>\n    <div id=\"externalSite\">\n      <h2>\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u30ed\u30b0\u30a4\u30f3<\/h2>\n      <ul>\n      <li class=\"google\"><a href=\"https:\/\/gihyo.jp\/auth\/google\">Google<\/a><\/li>\n      <li class=\"facebook\"><a href=\"https:\/\/gihyo.jp\/auth\/facebook\">Facebook<\/a><\/li>\n      <li class=\"yahoo\"><a href=\"https:\/\/gihyo.jp\/auth\/yahoojp\">Yahoo! JAPAN<\/a><\/li>\n      <\/ul>\n      <p><a href=\"\/dp\/help\/buy\/external\">\u5916\u90e8\u30b5\u30fc\u30d3\u30b9\u3067\u306e\u30ed\u30b0\u30a4\u30f3\u306b\u3064\u3044\u3066<\/a><\/p>\n    <\/div>\n    <p id=\"close\"><a href=\"#close\" title=\"\u9589\u3058\u308b\">\u9589\u3058\u308b<\/a><\/p>\n  <\/div>\n<\/aside>"}</script>
+  <script>var asyncCall=function(){var e=Array.prototype.slice,a=Function.prototype.bind||function(j){var a=this,b=e.call(arguments,1);return function(){var c=e.call(arguments);return a.apply(j,b.concat(c))}},f=a.call(a,Function.prototype.call),b=f(e),c=f(a),d=f(Function.prototype.apply);if("undefined"!==typeof process)a=function(){var a=b(arguments);process.nextTick(d(c,null,a))};else if("function"===typeof setImmediate)a=function(){var a=b(arguments);setImmediate(d(c,null,a))};else if("function"===typeof MessageChannel){var g=new MessageChannel,h=[];g.port1.onmessage=function(){h.shift()()};a=function(){var a=b(arguments);h.push(d(c,null,a));g.port2.postMessage(0)}}else a=function(){var a=b(arguments);setTimeout(d(c,null,a),0)};return a}();window.onerror=function(mes,fname,lnum){var erIgnore=['top.GLOBALS','originalCreateNotification','canvas.contentDocument','fb_xd_fragment','Script error.'];for(i=0;i<erIgnore.length;i++){if(mes.indexOf(erIgnore[i])>-1){return false;}};var mes='message:'+mes+', file:'+fname+', line:'+lnum+', href:'+location.href+', UA:'+window.navigator.userAgent;ga('send','event','Error','JSError',mes);};</script>
+  <script src="//platform.twitter.com/widgets.js" id="twitter-wjs" async defer></script>
+  <script src="//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=185201618169441&version=v2.8" id="facebook-jssdk" async defer></script>
+  <script src="//apis.google.com/js/platform.js" async defer></script>
+  <script src="//b.hatena.ne.jp/js/bookmark_button.js" charset="utf-8" async defer></script>
+</body>
+</html>
