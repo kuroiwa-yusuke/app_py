@@ -12,6 +12,13 @@ tornado = "==5.1.1"
 jupyter = "*"
 lxml = "*"
 cssselect = "*"
+beautifulsoup4 = "*"
+pyquery = "*"
+feedparser = "*"
+pymongo = "*"
+tenacity = "*"
+cachecontrol = {extras = ["filecache"], version = "*"}
+jsonschema = "*"
 
 [requires]
 python_version = "3.8"
