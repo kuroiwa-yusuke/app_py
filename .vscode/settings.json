@@ -1,4 +1,4 @@
 {
     "python.pythonPath": "/root/.local/share/virtualenvs/app-4PlAip0Q/bin/python",
-    "python.dataScience.jupyterServerURI": "http://f1a1b562cae0:8888/?token=4ea5a6e9b76df56c7027e95651f2df73b703fbcaa95ba702"
+    "jupyter.jupyterServerType": "remote"
 }

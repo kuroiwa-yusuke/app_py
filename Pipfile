@@ -19,6 +19,9 @@ pymongo = "*"
 tenacity = "*"
 cachecontrol = {extras = ["filecache"], version = "*"}
 jsonschema = "*"
+google-api-python-client = "*"
+requests-oauthlib = "*"
+tweepy = "*"
 
 [requires]
 python_version = "3.8"
